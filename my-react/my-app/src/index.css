@@ -1,0 +1,40 @@
+.mainDiv{
+  background-color: yellow;
+  height: 100vh;
+}
+.divText {
+  width: 500px;
+  background-color: yellow;
+}
+.mainTextInput {
+  height: 300px;
+  border: 1px solid green;
+  background-color: yellow;
+}
+.titleTextInput {
+  border-radius: 25px ;
+  height: 50px;
+  background-color: yellow;
+  border: 1px solid blue;
+}
+.header{
+  background-color: rgb(255, 0, 200);
+}
+.createdNotes{
+  background-color: tomato;
+}
+
+@media (max-width : 768px) { 
+  .mainDiv {
+    display: flex;
+    flex: 0.8;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .header{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
